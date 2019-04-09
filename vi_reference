@@ -1,0 +1,41 @@
+vi and Vim Editors Pocket Reference
+
+Introduction
+This pocket reference is a companion to Learning the vi and vim editors by Arnold Robbins et al. It describes the vi
+com-mand-line options, command-mode commands, ex com-mands and options, regular expressions and the use of the
+substitute (s) command, and other partinet information for using vi.
+
+While retaining coverage of th vi clones, nvi, elvis, and vile, this edition offers expanded coverage of the Vim editor,which has edition offers expanded coverage of the Vim editor, which has become the de facto standard version of vi in the GNU/Linux world. 
+
+The Solaris version of vi served as the "reference" verison of the original vi for this pocket reference
+
+Conventions
+
+The following font conventions are used in this book:
+
+Courier
+Used for filenames, command names, options, and every-thing to be typed literally.
+Italic
+Used for replaceable text within regular text,Internet URLs.for emphasis,andfor new terms when first defined.
+...
+Identifies optionanl text;the brackets are not typed.
+CTRL_G
+Indicates a keystorke.
+Acknowledgments
+Thank to Tobert P.J.Day and Elbert Hannnah,who reviewed this edition.The production team at O'Reilly Media did a agreat
+Job helping me make the book look the way I wanted.A special thanks to my editor,Andy Oram,for keeping the project mov-ing with continual gentle encouragement.
+Command-Line Options
+command                       action
+vi file                   invoke vi on file
+ci file1 file2            invoke vi on files sequentially
+view file                 invoke vi on file in read-only mode
+vi-R file                 invoke vi on file in read-only mode
+vi-r file                 Recover file and recent edits after a crash
+vi-t tag                  Look up tag and start editing at its definition
+vi-w n                    set the windiw suze to n;useful over a slow connection
+vi+file                   open file at last line
+vi+n file                 open file directly at line number 
+
+:w
+
+
